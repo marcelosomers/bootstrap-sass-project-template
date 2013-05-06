@@ -7076,5 +7076,9 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
     vertical-align: middle; }
 
 /* line 25, ../stylesheets/partials/layout.scss */
-.top-30 {
+.vertical-spacer {
   margin-top: 30px; }
+
+/* line 30, ../stylesheets/partials/layout.scss */
+footer .address {
+  margin-top: 1em; }
