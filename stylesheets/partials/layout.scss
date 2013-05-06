@@ -1,0 +1,27 @@
+.header {	
+	.logo {
+		width: 223px;
+		height: 15px;
+		margin-top: 19px;
+		float: left;
+	}
+	
+	ul {
+		float: right;
+		@include horizontal-list(30px);
+		
+		li {
+			line-height: 53px;
+		}
+	}
+}
+
+.hero {
+	.center-outer {
+		@include vertical-center(360px);
+	}
+}
+
+.top-30 {
+	margin-top: 30px;
+}

@@ -1,0 +1,32 @@
+@mixin horizontal-list($margin-right) {
+    padding:0;
+    margin:0;
+    overflow:hidden;
+    
+    li {
+        margin-right: $margin-right;
+        list-style: none;
+        display:inline;
+        
+        &:last-child {
+            margin-right:0px;
+        }
+    }
+}
+
+@mixin vertical-center($height) {
+	height: $height;
+	display: table;
+	overflow: hidden;
+	
+	.center-inner {
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+
+@mixin hoverActiveFocus($property, $value) {
+   &:hover, &:active, &:focus {
+       #{$property}: $value;
+   }
+}
